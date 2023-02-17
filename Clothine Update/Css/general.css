@@ -1,0 +1,174 @@
+
+.hero
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+    max-width: 130rem;
+    align-items: center;
+    gap: 10rem;
+    background-color: #ffe6f2;
+}
+
+.section-hero
+{
+    background-color: #ffe6f2;
+    padding: 15.8rem 0 9.6rem 0;
+    /*border-bottom: solid #333;*/
+}
+
+
+.hero-description
+{
+    font-size: 1.7rem;
+    line-height: 1.05;
+    margin-bottom: 4.8rem;
+    color: #333;
+}
+
+.hero-img
+{
+    width: 100%;
+}
+
+.Name
+{
+    color: deeppink;
+}
+
+.section-how
+{
+    padding: 5rem 0;
+}
+
+.container
+{
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+.heading-secondary,
+.heading-primary
+{
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    color: #333;
+}
+
+.heading-primary
+{
+    font-size: 5.2rem;
+    line-height: 1.05;
+    margin-bottom: 3.2rem;
+}
+
+.heading-secondary
+{
+    font-size: 5.4rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
+}
+
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    height: 7.5rem;
+    padding: 0 4.8rem;
+}
+
+.logo
+{
+    color: snow;
+}
+
+.TN
+{
+    color: deeppink;
+}
+
+.main-nav-list
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+.main-nav-link:link, 
+.main-nav-link:visited
+{
+    display: inline-block;
+    text-decoration: none;
+    color: orchid;
+    font-weight: 500;
+    font-size: 1.5rem;
+    transition: all 0.3s;
+}
+
+.main-nav-link:hover, .main-nav-link:active
+{
+    color: deeppink;
+}
+
+.main-nav-link.nav-cta:link, 
+.main-nav-link.nav-cta:visited
+{
+    padding: 1.2rem 2.4rem;
+    border-radius: 8.2rem;
+    color: #fff;
+    background-color: darkmagenta;
+    font-weight: 700;
+}
+
+.main-nav-link.nav-cta:hover, 
+.main-nav-link.nav-cta:active
+{
+    background-color: orchid;
+    color: #333;
+}
+
+.margin-right-sm
+{
+    margin-right: 1.6rem !important;
+}
+
+
+.button:link,
+.button:visited
+{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 1.6rem 3.2rem;
+    border-radius: 8.2rem;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.btn-Up:link, .btn-Up:link
+{
+    background-color: darkmagenta;
+}
+
+.btn-Up:hover, .btn-Up:active
+{
+    background-color: lightcoral;
+    color: #333;
+}
+
+.btn-In:link, .btn-In:link
+{
+    background-color: #333;
+}
+
+.btn-In:hover, .btn-In:active
+{
+    background-color: rgb(113, 113, 113);
+    color: #333;
+}

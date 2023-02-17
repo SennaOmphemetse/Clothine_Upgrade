@@ -1,0 +1,99 @@
+.grid-box5
+{
+    display: grid;
+    gap: 9.6rem;
+    grid-template-columns: repeat(5, 1fr);
+}
+.log
+{
+    text-decoration: none;
+}
+.footer
+{
+    padding: 9.6rem 0;
+    background-color: #333;
+}
+
+.grid-box5
+{
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.footer-logo
+{
+    display: block;
+    margin-bottom: 3.2rem;
+}
+
+.Social-icons
+{
+    height: 2.4rem;
+    width: 2.4rem;
+    margin-bottom: 3.2rem;
+    margin-top: 1.5rem;
+}
+
+.Social-icons:hover
+{
+    background-color: deeppink;
+    border-radius: 50%;
+    transition: all 1.2s;
+}
+
+.Social-links
+{
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+}
+
+.footer-heading
+{
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    color: aliceblue;
+}
+
+.footer-nav
+{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited
+{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #888;
+    transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active
+{
+    color: deeppink;
+}
+
+.copyright
+{
+    font-size: 1.4rem;
+    color: aliceblue;
+    line-height: 1.6;
+    margin-top: auto;
+}
+
+.contacts
+{
+    font-style: normal;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+.addresses
+{
+    margin-bottom: 2.4rem;   
+}
